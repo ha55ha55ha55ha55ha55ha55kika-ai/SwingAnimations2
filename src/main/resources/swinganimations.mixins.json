@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.swinganimations.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin",
+    "HeldItemGlowMixin",
+    "LivingEntityMixin",
+    "LivingEntityDeathMixin",
+    "WorldRendererMixin",
+    "LivingEntityRendererMixin",
+    "LivingEntityRenderStateMixin",
+    "HandledScreenMixin",
+    "ClientPlayerEntityMixin",
+    "EntityRenderDispatcherMixin",
+    "ItemEntityRendererMixin",
+    "ItemEntityRenderStateMixin",
+    "InGameHudMixin",
+    "WorldMixin",
+    "ClientWorldMixin",
+    "SimpleOptionMixin",
+    "EntityLookMixin",
+    "CameraMixin",
+    "InGameOverlayRendererMixin",
+    "ParticleManagerMixin",
+    "GameRendererMixin",
+    "HeldItemRendererBobMixin",
+    "MinecraftClientMixin",
+    "HeartTypeMixin",
+    "WorldRendererSkyMixin",
+    "PlayerDisplayNameMixin",
+    "PlayerListHudMixin",
+    "ChatHudBadgeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

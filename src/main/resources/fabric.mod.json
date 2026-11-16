@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "swinganimations",
+  "version": "${version}",
+  "name": "SwingAnimations",
+  "description": "Визуальный клиентский мод: ClickGUI, FreeLook, PainDication, BlockOutline, Removals, Music, TargetESP, Trails, JumpCircle, HeartShow, SeeInvisibles, Interface, AutoSprint и анимации удара. Только клиент.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.swinganimations.SwingAnimationsClient"
+    ],
+    "modmenu": [
+      "com.swinganimations.compat.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "swinganimations.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "icon": "assets/swinganimations/icon.png"
+}
